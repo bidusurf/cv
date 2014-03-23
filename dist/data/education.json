@@ -1,0 +1,90 @@
+{
+    "academic": [
+        {
+            "entity": {
+                "name": "Universidade Federal de Santa Catarina (UFSC)",
+                "location": "Florianópolis - SC"
+
+            },
+            "period": {
+                "begin": "2004",
+                "end": ""
+            },
+            "title": "Bachelor's Degree in Computer Science"
+        },
+        {
+            "entity": {
+                "name": "FEI",
+                "location": "São Bernardo do Campo - SP"
+
+            },
+            "period": {
+                "begin": "2000",
+                "end": "2002"
+            },
+            "title": "Bachelor's Degree in Computer Science - Unfinished"
+        },
+        {
+            "entity": {
+                "name": "E.T.E. Vasco Antônio Venchiarutti",
+                "location": "Jundiaí - SP"
+
+            },
+            "period": {
+                "begin": "1996",
+                "end": "1999"
+            },
+            "title": "Data Processing Course"
+        }
+    ],
+    "courses": [
+        {
+            "collapse": "c1",
+            "title": "Core Web: Developing with JavaServer Faces, Java Persistence API e AJAX",
+            "date": "06/2008",
+            "entity": "VOffice Florianópolis - GlobalCode Partner",
+            "topics": [
+                "Introduction to Java EE",
+                "IDE",
+                "Java Servlet",
+                "JavaServer Pages",
+                "Session & Context",
+                "Filters",
+                "Security using JAAS",
+                "Design-patterns",
+                "JavaPersistence API",
+                "JPA - Basics",
+                "JPA - Relationships",
+                "Introduction to JSF",
+                "JSF - Main UI Components",
+                "JSF - Navigation",
+                "JSF - Converting and Formatting",
+                "JSF - Internationalization",
+                "Facelets",
+                "JSF - Component Binding",
+                "JSF - Events",
+                "Richfaces - Components",
+                "AJAX & Richfaces",
+                "AJAX4JSF"
+            ]
+        },
+        {
+            "collapse": "c2",
+            "title": "Core EJB - Core Enterprise Java Beans: Components Development",
+            "date": "07/2008",
+            "entity": "VOffice Florianópolis - GlobalCode Partner",
+            "topics": [
+                "EJB Architectures and JNDI Fundamentals",
+                "Stateless SessionBeans 2.x e 3.0",
+                "Stateful SessionBeans 2.x e 3.0",
+                "Asynchronous Processing, JMS and MessageDrivenBeans 2.x e 3.0",
+                "Container: Transactions and Security",
+                "Timing",
+                "Design Patters: ServiceLocator, SessionFaçade, Business",
+                "Delegate",
+                "EJBs and Web-Services with JAX-RPC e JAX-WS",
+                "JPA with EJB 3.0"
+            ]
+        }
+    ]
+}

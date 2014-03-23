@@ -1,0 +1,119 @@
+[
+    {
+        "collapse": "one",
+        "period": {
+            "begin": "01/2010",
+            "end": "Today"
+        },
+        "company": {
+            "name": "Weev Brasil",
+            "location": "Florianópolis - SC"
+        },
+        "position": "Solution Architect",
+        "activities": [
+            "Extensive JEE knowledge, including all the APIs (EJB, JPA, JMS, etc), used on backend development and architecture for a big financial system which controls customer's banking accounts, able to manage loans, savings and all the normal banking operations.",
+            "Frontend developer for a mobile application using Phonegap and AngularJS."
+        ]
+    },
+    {
+        "collapse": "two",
+        "period": {
+            "begin": "06/2009",
+            "end": "01-2010"
+        },
+        "company": {
+            "name": "Neoway",
+            "location": "Florianópolis - SC"
+        },
+        "position": "System Analyst",
+        "activities": [
+            "System integration using the Ensemble integration platform and the Cachè database. Developed integration software to integrate a variety of systems that belong to the most different sectors of SEA (Secretaria Estadual de Adiministração), a secretary of Santa Catarina state.",
+            "Developed a web application for Alesc, which helped the deputies control the signing and lifecycle of legal processes."
+        ]
+    },
+    {
+        "collapse": "three",
+        "period": {
+            "begin": "10/2007",
+            "end": "06/2009"
+        },
+        "company": {
+            "name": "Prosul, Projetos e Supervisão Ltda.",
+            "location": "Florianópolis - SC"
+        },
+        "position": "System Analyst",
+        "activities": [
+            "Develop the Web Portal using Java and the J2EE technology - JSF and EJB 3.1 more specifically.",
+            "Install, configure and maintain the JBOSS AS.",
+            "Administer and create new procedures for the company management system, Microsiga Advanced Protheus, using ADVPL and ADVPL-ASP as languages.",
+            "Implement Web Service procedures to integrate the Web Portal with Microsiga System, from the configuration to the creation of services in ADVPL and Java.",
+            "Administer the whole DB2 Database."
+        ]
+    },
+    {
+        "collapse": "four",
+        "period": {
+            "begin": "04/2006",
+            "end": "10/2007"
+        },
+        "company": {
+            "name": "Prosul, Projetos e Supervisão Ltda.",
+            "location": "Florianópolis - SC"
+        },
+        "position": "Programmer Trainee",
+        "activities": [
+            "Develop the Web Portal using Java and the J2EE technology - Servlets JSP more specifically.",
+            "Administer and create new procedures for the company management system, Microsiga Advanced Protheus, using ADVPL and ADVPL-ASP as languages.",
+            "Implement Web Service procedures to integrate the Web Portal with Microsiga System, from the configuration to the creation of ADVPL services in Java.",
+            "Administer the whole DB2 Database."
+        ]
+    },
+    {
+        "collapse": "five",
+        "period": {
+            "begin": "11/2004",
+            "end": "04/2006"
+        },
+        "company": {
+            "name": "Laboratório de Transportes - ECV - UFSC",
+            "location": "Florianópolis - SC"
+        },
+        "position": "Programmer",
+        "activities": [
+            "Develop Geographic Information Systems (GIS) with Delphi, by using dbExpress and the SQL Server, Postgres SQL and Oracle databases."
+        ]
+    },
+    {
+        "collapse": "six",
+        "period": {
+            "begin": "07/2000",
+            "end": "02/2004"
+        },
+        "company": {
+            "name": "Zanettini, Barossi S/A - Ind e Com.",
+            "location": "São Paulo - SP"
+        },
+        "position": "Junior Systems Analyst",
+        "activities": [
+            "Manage the ERP System, which has been developed internally and covered all steps from the clients\" request to the invoice, including production and purchase planning, and production and inventory control. Manage the database, and provide all the necessary maintenance to update the system.",
+            "Maintain the purchased systems: Microsiga (accounting) and RM-Labore (Human Resources and Personnel Department).",
+            "Control the information exchange services via formatted files, such as: bank transactions, purchase requests, and Electronic Data Interchange (EDI)."
+        ]
+    },
+    {
+        "collapse": "seven",
+        "period": {
+            "begin": "03/2000",
+            "end": "07/2000"
+        },
+        "company": {
+            "name": "Zanettini, Barossi S/A - Ind e Com.",
+            "location": "São Paulo - SP"
+        },
+        "position": "Trainee",
+        "activities": [
+            "Learn about the ERP System, developed internally, and the database (Unify 2000/SQL Language), and administer the UNIX network.",
+            "Acquire practical knowledge of the ERP System; provide small maintenance services on the database; write reports."
+        ]
+    }
+]
