@@ -2,6 +2,24 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
 
+.alert-show-hide.ng-hide-add, .alert-show-hide.ng-hide-remove {
+  -webkit-transition:all linear 0.5s;
+  -moz-transition:all linear 0.5s;
+  -o-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+  display:block!important;
+}
+
+.alert-show-hide.ng-hide-add.ng-hide-add-active,
+.alert-show-hide.ng-hide-remove {
+  opacity:0;
+}
+
+.alert-show-hide.ng-hide-add,
+.alert-show-hide.ng-hide-remove.ng-hide-remove-active {
+  opacity:1;
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;

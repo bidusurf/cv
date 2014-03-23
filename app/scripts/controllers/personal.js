@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('cvApp').controller('personalCtrl', function ($scope, userContext) {
-    userContext.selectScope(userContext.getInfoScopes().personal);
+    userContext.selectScope(userContext.infoScopes.personal);
     var getAge = function() {
         var now = new Date();
         var years = now.getFullYear() - 1981;

@@ -1,32 +1,40 @@
 'use strict';
 
-angular.module('cvApp')
-  .service('userContext', function userContext() {
-    var infoScopes = {};
-    infoScopes.personal = {
-      title: 'Personal',
-      selected: true,
-      route: 'personal'
+var UserContext = function() {
+    this.showAlert = true;
+    this.infoScopes = {};
+    this.infoScopes.personal = {
+        title: 'Personal',
+        selected: true,
+        route: 'personal'
     };
-    infoScopes.education = {
-      title: 'Education',
-      selected: false,
-      route: 'education'
+    this.infoScopes.education = {
+        title: 'Education',
+        selected: false,
+        route: 'education'
     };
-    infoScopes.career = {
-      title: 'Career',
-      selected: false,
-      route: 'career'
+    this.infoScopes.career = {
+        title: 'Career',
+        selected: false,
+        route: 'career'
+    };
+    this.infoScopes.skills = {
+        title: 'Skills',
+        selected: false,
+        route: 'skills'
     };
 
-    return {
-      getInfoScopes: function(){
-          return infoScopes;
-      },
-      selectScope: function(scope){
-          angular.forEach(infoScopes, function(infoScope){
-              infoScope.selected = infoScope.title === scope.title;
-          })
-      }
+    this.selectScope = function(scope){
+        angular.forEach(this.infoScopes, function(infoScope){
+            infoScope.selected = infoScope.title === scope.title;
+        });
     }
-  })
+}
+
+angular.module('cvApp').service('userContext', function(){
+    var userContext;
+    if (!userContext) {
+        userContext =new UserContext();
+    }
+    return userContext;
+});

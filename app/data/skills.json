@@ -1,0 +1,98 @@
+[
+    {
+        "name": "English Language - Reading",
+        "level": 90
+    },
+    {
+        "name": "English Language - Speaking",
+        "level": 70
+    },
+    {
+        "name": "English Language - Writing",
+        "level": 70
+    },
+    {
+        "name": "Leadership",
+        "level": 90
+    },
+    {
+        "name": "Enterprise System Architecture",
+        "level": 80
+    },
+    {
+        "name": "Design Patterns",
+        "level": 80
+    },
+    {
+        "name": "Clean Code",
+        "level": 90
+    },
+    {
+        "name": "Git",
+        "level": 80
+    },
+    {
+        "name": "Java",
+        "level": 100
+    },
+    {
+        "name": "EJB",
+        "level": 90
+    },
+    {
+        "name": "JBoss AS",
+        "level": 80
+    },
+    {
+        "name": "Web Sphere",
+        "level": 70
+    },
+    {
+        "name": "Tomcat",
+        "level": 90
+    },
+    {
+        "name": "Hibernate",
+        "level": 100
+    },
+    {
+        "name": "Spring",
+        "level": 80
+    },
+    {
+        "name": "PostgresSQL",
+        "level": 90
+    },
+    {
+        "name": "IBM DB2",
+        "level": 70
+    },
+    {
+        "name": "Microsoft SQL Server",
+        "level": 80
+    },
+    {
+        "name": "Javascript",
+        "level": 90
+    },
+    {
+        "name": "AngularJS",
+        "level": 70
+    },
+    {
+        "name": "CSS3",
+        "level": 70
+    },
+    {
+        "name": "HTML5",
+        "level": 90
+    },
+    {
+        "name": "Ruby",
+        "level": 30
+    },
+    {
+        "name": "Linux",
+        "level": 80
+    }
+]

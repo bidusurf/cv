@@ -1,5 +1,44 @@
+<div class="alert alert-info alert-show-hide" ng-show="userContext.showAlert">Click on the topics to show/hide education details.</div>
 <div class="text-left">
-    <p>
-    This is the education scope
-    </p>
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h6 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" ng-click="hideAlert()" href="/education#academic">
+                        <em>Academic Experience</em><br><br>
+                    </a>
+                </h6>
+            </div>
+            <div id="academic" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <ul>
+                        <li ng-repeat="academicItem in academic">
+                            {{ academicItem.period.begin }} - {{ academicItem.period.end }}<br>
+                            {{ academicItem.title }}<br>
+                            {{ academicItem.entity.name }} - {{ academicItem.entity.location }}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default" ng-repeat="course in courses">
+            <div class="panel-heading">
+                <h6 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" ng-click="hideAlert()" href="/education#{{ course.collapse }}">
+                        <em>{{ course.title}}</em><br><br>
+                        <small>{{ course.date }}</small>
+                    </a>
+                </h6>
+            </div>
+            <div id="{{ course.collapse }}" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <em>{{ course.entity }}</em>
+                    <ul>
+                        <li ng-repeat="topic in course.topics">{{ topic }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
 </div>

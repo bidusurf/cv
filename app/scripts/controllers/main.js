@@ -1,12 +1,14 @@
 'use strict';
 
-angular.module('cvApp')
-  .controller('mainCtrl', function ($scope, userContext, $location) {
+angular.module('cvApp').controller('mainCtrl', function ($scope, userContext, $location) {
     $scope.userContext = userContext;
-    $scope.personal = userContext.getInfoScopes().personal;
-    $scope.career = userContext.getInfoScopes().career;
-    $scope.education = userContext.getInfoScopes().education;
+    for (var scope in userContext.infoScopes) {
+        $scope[scope] = userContext.infoScopes[scope];
+    }
     $scope.selectScope = function(infoScope){
         $location.path(infoScope.route);
     }
-  });
+    $scope.hideAlert = function() {
+        userContext.showAlert = false;
+    }
+});
