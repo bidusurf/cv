@@ -1,7 +1,8 @@
 'use strict';
 
 var UserContext = function() {
-    this.showAlert = true;
+    this.showAlertCareer = true;
+    this.showAlertEducation = true;
     this.infoScopes = {};
     this.infoScopes.personal = {
         title: 'Personal',

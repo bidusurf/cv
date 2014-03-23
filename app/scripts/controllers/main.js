@@ -8,7 +8,4 @@ angular.module('cvApp').controller('mainCtrl', function ($scope, userContext, $l
     $scope.selectScope = function(infoScope){
         $location.path(infoScope.route);
     }
-    $scope.hideAlert = function() {
-        userContext.showAlert = false;
-    }
 });

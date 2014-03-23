@@ -8,4 +8,7 @@ angular.module('cvApp').controller('educationCtrl', function ($scope, userContex
         $scope.academic = data.academic;
         $scope.courses = data.courses;
     });
+    $scope.hideAlert = function() {
+        userContext.showAlertEducation = false;
+    }
 });

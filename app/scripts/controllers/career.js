@@ -6,4 +6,7 @@ angular.module('cvApp').controller('careerCtrl', function ($scope, userContext, 
     $http.get('../data/career.json').success(function(data){
         $scope.jobs = data;
     });
+    $scope.hideAlert = function() {
+        userContext.showAlertCareer = false;
+    }
 });
