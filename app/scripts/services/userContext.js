@@ -5,7 +5,7 @@ var UserContext = function() {
     this.showAlertEducation = true;
     this.infoScopes = {};
     this.infoScopes.personal = {
-        title: 'Personal',
+        title: 'Personal Info',
         selected: true,
         route: 'personal'
     };

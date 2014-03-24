@@ -11,8 +11,9 @@
         },
         "position": "Solution Architect",
         "activities": [
-            "Extensive JEE knowledge, including all the APIs (EJB, JPA, JMS, etc), used on backend development and architecture for a big financial system which controls customer's banking accounts, able to manage loans, savings and all the normal banking operations.",
-            "Frontend developer for a mobile application using Phonegap and AngularJS."
+            "Extensive JEE knowledge, including all APIs (EJB, JPA, JMS, etc), used on back-end development and architecture for a big financial system, which controls customer's banking accounts, managing loans, savings and all the normal banking operations.",
+            "Work experience abroad. 4 1/2 months working on the aforementioned project in The Netherlands, making decisions on the architecture and getting to know the team better. All the communication between the Brazilian and Dutch teams was in English.",
+            "Front-end developer for a mobile application using HTML5, CSS3, Phonegap and AngularJS."
         ]
     },
     {
@@ -27,8 +28,8 @@
         },
         "position": "System Analyst",
         "activities": [
-            "System integration using the Ensemble integration platform and the Cachè database. Developed integration software to integrate a variety of systems that belong to the most different sectors of SEA (Secretaria Estadual de Adiministração), a secretary of Santa Catarina state.",
-            "Developed a web application for Alesc, which helped the deputies control the signing and lifecycle of legal processes."
+            "System integration using the Ensemble integration platform and the Cachè database. Developed integration software to integrate a variety of systems belonging to the most different sectors of State Department of Administration (Secretaria Estadual de Adiministração), a department of the state of Santa Catarina.",
+            "Develop a web application for ALESC (Santa Catarina State Assembly), which helped the assemblymen to control the execution and lifecycle of legal proceedings."
         ]
     },
     {
@@ -46,7 +47,7 @@
             "Develop the Web Portal using Java and the J2EE technology - JSF and EJB 3.1 more specifically.",
             "Install, configure and maintain the JBOSS AS.",
             "Administer and create new procedures for the company management system, Microsiga Advanced Protheus, using ADVPL and ADVPL-ASP as languages.",
-            "Implement Web Service procedures to integrate the Web Portal with Microsiga System, from the configuration to the creation of services in ADVPL and Java.",
+            "Implement Web Service procedures to integrate the Web Portal with the Microsiga System, from the configuration to the creation of services in ADVPL and Java.",
             "Administer the whole DB2 Database."
         ]
     },
@@ -64,7 +65,7 @@
         "activities": [
             "Develop the Web Portal using Java and the J2EE technology - Servlets JSP more specifically.",
             "Administer and create new procedures for the company management system, Microsiga Advanced Protheus, using ADVPL and ADVPL-ASP as languages.",
-            "Implement Web Service procedures to integrate the Web Portal with Microsiga System, from the configuration to the creation of ADVPL services in Java.",
+            "Implement Web Service procedures to integrate the Web Portal with the Microsiga System, from the configuration to the creation of ADVPL services in Java.",
             "Administer the whole DB2 Database."
         ]
     },
@@ -95,7 +96,7 @@
         },
         "position": "Junior Systems Analyst",
         "activities": [
-            "Manage the ERP System, which has been developed internally and covered all steps from the clients\" request to the invoice, including production and purchase planning, and production and inventory control. Manage the database, and provide all the necessary maintenance to update the system.",
+            "Manage the ERP System, which has been developed internally and cover all steps from the clients' request to the invoice, including purchase and production planning, and inventory and production control. Manage the database, and provide all the necessary maintenance for the system update.",
             "Maintain the purchased systems: Microsiga (accounting) and RM-Labore (Human Resources and Personnel Department).",
             "Control the information exchange services via formatted files, such as: bank transactions, purchase requests, and Electronic Data Interchange (EDI)."
         ]
