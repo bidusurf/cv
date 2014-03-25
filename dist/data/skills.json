@@ -52,7 +52,7 @@
         "level": 90
     },
     {
-        "name": "Hibernate",
+        "name": "JPA/Hibernate",
         "level": 100
     },
     {
@@ -94,5 +94,13 @@
     {
         "name": "Linux",
         "level": 80
+    },
+    {
+        "name": "Mobile Web",
+        "level": 80
+    },
+    {
+        "name": "Android",
+        "level": 60
     }
 ]

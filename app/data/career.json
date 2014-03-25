@@ -28,7 +28,7 @@
         },
         "position": "System Analyst",
         "activities": [
-            "System integration using the Ensemble integration platform and the Cachè database. Developed integration software to integrate a variety of systems belonging to the most different sectors of State Department of Administration (Secretaria Estadual de Adiministração), a department of the state of Santa Catarina.",
+            "System integration using the Ensemble integration platform and the Caché database. Develop integration software to integrate a variety of systems belonging to the most different sectors of State Department of Administration (Secretaria Estadual de Adiministração), a department of the state of Santa Catarina.",
             "Develop a web application for ALESC (Santa Catarina State Assembly), which helped the assemblymen to control the execution and lifecycle of legal proceedings."
         ]
     },
@@ -44,8 +44,8 @@
         },
         "position": "System Analyst",
         "activities": [
-            "Develop the Web Portal using Java and the J2EE technology - JSF and EJB 3.1 more specifically.",
-            "Install, configure and maintain the JBOSS AS.",
+            "Develop the Web Portal using Java and the J2EE technology - JSF and EJB 3.1, more specifically.",
+            "Install, configure and maintain the JBoss AS.",
             "Administer and create new procedures for the company management system, Microsiga Advanced Protheus, using ADVPL and ADVPL-ASP as languages.",
             "Implement Web Service procedures to integrate the Web Portal with the Microsiga System, from the configuration to the creation of services in ADVPL and Java.",
             "Administer the whole DB2 Database."
@@ -63,7 +63,7 @@
         },
         "position": "Programmer Trainee",
         "activities": [
-            "Develop the Web Portal using Java and the J2EE technology - Servlets JSP more specifically.",
+            "Develop the Web Portal using Java and the J2EE technology - Servlets JSP, more specifically.",
             "Administer and create new procedures for the company management system, Microsiga Advanced Protheus, using ADVPL and ADVPL-ASP as languages.",
             "Implement Web Service procedures to integrate the Web Portal with the Microsiga System, from the configuration to the creation of ADVPL services in Java.",
             "Administer the whole DB2 Database."
@@ -96,7 +96,7 @@
         },
         "position": "Junior Systems Analyst",
         "activities": [
-            "Manage the ERP System, which has been developed internally and cover all steps from the clients' request to the invoice, including purchase and production planning, and inventory and production control. Manage the database, and provide all the necessary maintenance for the system update.",
+            "Manage the ERP System, which has been developed internally to cover all steps from the clients' request to the invoice, including the purchase and production planning, and the inventory and production control. Manage the database and provide all the necessary maintenance for the system update.",
             "Maintain the purchased systems: Microsiga (accounting) and RM-Labore (Human Resources and Personnel Department).",
             "Control the information exchange services via formatted files, such as: bank transactions, purchase requests, and Electronic Data Interchange (EDI)."
         ]
