@@ -2,13 +2,13 @@
 <div class="text-left">
     <div class="panel-group" id="accordion">
         <div class="panel panel-default">
-            <div class="panel-heading">
-                <h6 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" ng-click="hideAlert()" href="/education#academic">
+            <a data-toggle="collapse" data-parent="#accordion" ng-click="hideAlert()" href="/education#academic">
+                <div class="panel-heading">
+                    <h6 class="panel-title">
                         <em>Academic Experience</em><br><br>
-                    </a>
-                </h6>
-            </div>
+                    </h6>
+                </div>
+            </a>
             <div id="academic" class="panel-collapse collapse in">
                 <div class="panel-body">
                     <ul>
@@ -22,14 +22,14 @@
             </div>
         </div>
         <div class="panel panel-default" ng-repeat="course in courses">
-            <div class="panel-heading">
-                <h6 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" ng-click="hideAlert()" href="/education#{{ course.collapse }}">
+            <a data-toggle="collapse" data-parent="#accordion" ng-click="hideAlert()" href="/education#{{ course.collapse }}">
+                <div class="panel-heading">
+                    <h6 class="panel-title">
                         <em>{{ course.title}}</em><br><br>
                         <small>{{ course.date }}</small>
-                    </a>
-                </h6>
-            </div>
+                    </h6>
+                </div>
+            </a>
             <div id="{{ course.collapse }}" class="panel-collapse collapse">
                 <div class="panel-body">
                     <em>{{ course.entity }}</em>

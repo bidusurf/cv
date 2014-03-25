@@ -4,7 +4,7 @@ angular.module('cvApp').controller('educationCtrl', function ($scope, userContex
     userContext.selectScope(userContext.infoScopes.education);
     $scope.academic = {};
     $scope.courses = [];
-    $http.get('../data/education.json').success(function(data){
+    $http.get('/data/education.json').success(function(data){
         $scope.academic = data.academic;
         $scope.courses = data.courses;
     });

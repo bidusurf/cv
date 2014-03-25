@@ -2,6 +2,12 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
 
+.panel-default > a > .panel-heading {
+color: #333333;
+background-color: whitesmoke;
+border-color: #dddddd;
+}
+
 .alert-show-hide.ng-hide-add, .alert-show-hide.ng-hide-remove {
   -webkit-transition:all linear 0.5s;
   -moz-transition:all linear 0.5s;
